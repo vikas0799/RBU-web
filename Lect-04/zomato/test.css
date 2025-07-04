@@ -1,0 +1,38 @@
+/* h1{
+    color: red;
+}
+
+p{
+    color: blueviolet;
+    background-color: aqua;
+}
+
+.head{
+    color: blue;
+}
+
+#nolan{
+    color: brown;
+    background-color: whitesmoke;
+}
+
+#xyz{
+    color: yellow;
+} */
+
+/* main{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+} */
+
+/* *{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+
+main p{
+    color: red;
+}
