@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+a{
+    margin: 10px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+#logo{
+    width: 200px;
+}
+
+main img{
+    width: 550px;
+    height: 250px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    margin-bottom: 30px;
+}
+
+main button{
+     padding: 10px;
+     background-color: steelblue;
+     border: 0px;
+     padding-left: 10px;
+     padding-right: 10px;
+     width: 200px;
+}
+
+#box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+main section div{
+    margin: 20px;
+}
+
+main section img{
+    height: 500px;
+}
