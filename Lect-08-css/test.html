@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+        }
+
+
+        main {
+            background-color: antiquewhite;
+            height: 300px;
+            width: 100px;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-name: vikas;
+            animation-duration: 3s;
+        }
+
+        @keyframes example {
+            from {
+                background-color: red;
+                height: 100px;
+            }
+
+            to {
+                background-color: yellow;
+                height: 200px;
+            }
+        }
+
+        @keyframes vikas {
+            from {
+                width: 100px;
+            }
+
+            to {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Animation</h1>
+
+    <div></div>
+    <br><br><br>
+    <main>
+
+    </main>
+</body>
+
+</html>

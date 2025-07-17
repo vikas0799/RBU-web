@@ -1,0 +1,9 @@
+main{
+    /* background-color: antiquewhite; */
+    background-image: url("nature.jpeg");
+    color: red;
+    object-fit:contain;
+    overflow: scroll;
+    width: 400px;
+    height: 500px;
+}

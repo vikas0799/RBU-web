@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            position: relative;
+        }
+
+
+        @keyframes example {
+            from {
+                background-color: red;
+                border-radius: 100%;
+                left: 0px;
+                margin-top: 0%;
+            }
+
+            to {
+                background-color: yellow;
+                border-radius: 100%;
+                left: 70%;
+                margin-top: 30%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Animation</h1>
+
+    <div></div>
+
+</body>
+
+</html>
