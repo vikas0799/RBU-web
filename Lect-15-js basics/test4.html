@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>higher order function</h1>
+
+    <script>
+        function harsh(parth){
+           parth();
+           console.log("hello rbu");
+           console.log(parth);
+           parth();
+           console.log(typeof(parth));
+           parth();
+           
+        }
+        let x=()=>{
+            console.log("hi");
+            console.log("bye");
+        };
+        harsh(x);
+
+
+    //   HOF(callback){
+
+    //   }
+
+
+
+
+
+
+    </script>
+</body>
+</html>
