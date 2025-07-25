@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>dsigfs</h1>
+    <script>
+       let arr=[23,5,4,3,1,7];
+       //map , reduce , filter
+    //    let double=(num)=>{
+    //     return num*num;
+    //    }
+    //  let ans=arr.map(double);
+    let ans=arr.map((num,index,arr)=>{
+        // console.log(num, index);
+        console.log(arr);
+        
+        return num*3;
+    })
+    console.log("final ans");
+    
+     console.log(ans);
+     
+    </script>
+</body>
+</html>
