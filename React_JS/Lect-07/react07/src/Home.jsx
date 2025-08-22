@@ -1,0 +1,12 @@
+import React from 'react';
+
+const Home = () => {
+    return (
+        <div>
+            <h1>home page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, deserunt, hic dicta culpa maxime commodi laboriosam vitae reiciendis ducimus distinctio tempore facere officiis quod quas, harum unde labore sed. Odio, id molestias. Temporibus, ea nesciunt enim dolor omnis alias debitis odio dolorum laudantium quos voluptatem libero mollitia perferendis ut provident labore dolore itaque fugit illum esse neque. Nobis consequatur consectetur iusto. Repudiandae accusantium distinctio numquam iusto, consequuntur eius sapiente fuga veniam animi hic nesciunt dolores architecto cupiditate molestias dolor, esse odio exercitationem accusamus fugiat maxime laudantium. Modi deserunt numquam nisi, sint magni praesentium mollitia minus optio architecto dolore ullam necessitatibus dolor nam iure tenetur odit velit consectetur obcaecati labore eius perferendis non. Neque, molestiae doloribus vitae officia odit tenetur! Iure placeat, asperiores sint distinctio sit assumenda optio autem quae quod non reprehenderit officiis libero illum voluptates odit eos dolorum vel, at quis? Enim veniam cum aut, quidem voluptatem consequuntur ipsum, autem dignissimos ad ipsam aperiam repellendus numquam minus mollitia deserunt odit corrupti harum? Fugit voluptatem natus ex sint quasi facere excepturi explicabo ea velit. Id aut ipsum error assumenda molestiae perspiciatis nobis praesentium, accusantium doloribus enim maxime odio cupiditate aliquam, veritatis numquam voluptatibus in, dolorem eaque accusamus nihil. Soluta explicabo dolorum illo magni. Molestiae, asperiores possimus vel quibusdam iusto animi eaque voluptas voluptatum eum quaerat deserunt debitis dolore? Animi eius aliquam dolor nemo voluptate velit laboriosam quas magnam? Similique praesentium natus iusto commodi recusandae culpa officia! Cum ut eos deserunt neque! Amet laboriosam labore praesentium dolor illo, itaque natus omnis explicabo distinctio commodi corporis ex facere aut dignissimos quam! Unde, cumque iure voluptates voluptatibus, ratione maiores nisi nostrum, voluptas ut recusandae commodi fugiat dolorum saepe voluptatem quas perspiciatis eius suscipit? Consectetur harum ab voluptatibus possimus, quia itaque, cum sed, porro sit voluptate accusantium perspiciatis atque. Incidunt nemo deleniti dolores sunt!</p>
+        </div>
+    );
+}
+
+export default Home;

@@ -6,7 +6,8 @@ const Card = (props) => {
   
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
-            {clothsdata.map((item) => (
+            {
+            clothsdata.map((item) => (
                 <div
                     key={item.id}
                     className="border rounded-xl shadow-md p-4 flex flex-col items-center bg-white hover:shadow-lg transition-shadow"
